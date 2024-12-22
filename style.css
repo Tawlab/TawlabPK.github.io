@@ -1,0 +1,99 @@
+/* ตั้งค่าพื้นฐาน */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6cb4ff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2773c7;
+    box-shadow: 1px 1px 5px black;
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #276FBF;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+    outline: none;
+    border-color: #96c2f5;
+    box-shadow: 0 0 5px rgba(150, 194, 245, 0.8);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #276FBF;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #96c2f5;
+    color: #fff;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+    color: #96c2f5;
+}
